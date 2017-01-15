@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Xem điểm thi </title>
+	<style type="text/css">
+		*{
+			font-family: Arial;
+			padding: 0px;
+			margin:0px;
+			border: none;
+			box-sizing: border-box;
+		}
+		#wrap a{
+			color: white;
+			text-decoration: none;
+		}
+		#container{
+			padding-left: 300px;
+			position: relative;
+			left: 0;
+			width:100%;
+		}
+		#wrap{
+			position: fixed;
+			height: 100%;
+			width: 300px;
+			left: 0;
+			background-color: #191818;
+		}
+		#menu li{
+			padding-left: 50px;
+			line-height: 1.9em;
+			height: 1.9em;
+			border-bottom: 1px solid;
+		}
+		#menu a{
+			font-size: 14px;
+		}
+		#menu{
+			padding-bottom: 30px;
+		}
+		#footer{
+			margin-left: 45px;
+			margin-right: 45px;
+		}
+		#wrap p {
+			padding: 10px 0px;
+			border-radius: 3px;
+			font-size: 14px;
+			text-align: center;
+			border: 1px solid;
+		}
+		#header{
+			padding: 0px;
+			margin:0px;
+			border: 0px;
+			height: 35px;
+			background-color: blue;
+			padding-bottom: 4px;
+		}
+		#logo{
+			height: 100%;
+			float: left;
+			padding-left: 20px;
+			padding-top: 7px;
+		}
+		#content p{
+			text-align: center;
+			padding-top: 20px;
+			line-height: 2em;
+		}
+
+		#view{
+			height: 32px;
+			margin: 0 40px;
+			border: 0.5px solid;
+			border-radius: 3px;
+		}
+		input{
+			height: 100%;
+			border-right: 1px solid;
+			padding: 1px 0;
+			width: 90%;
+		}
+		button{
+			height:100% ;
+			text-align: center;
+			padding: 0 1px;
+			background-color: white;
+			width: 9%;
+		}
+		input:active{
+			border-color: blue;
+		}
+		#a{
+			margin-top: 30px;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+		#content p a{
+			text-decoration: none;
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<h3>PTITVL</h3>
+		</div>
+	</div>
+	<div id="container">
+		<div id="wrap">
+				<ul id="menu">
+					<li><a href="#">Điểm thi</a></li>
+						<ul class ="sub">
+							<li><a href="#">Học kỳ</a></li>
+							<li><a href="#">Điểm tích lũy</a></li>
+						</ul>
+					<li><a href="#">Thời khóa biểu</a></li>
+						<ul class ="sub">
+							<li><a href="#">Xem lịch thi</a></li>
+						</ul>
+					<li><a href="#">Thống kê</a></li>
+						<ul class ="sub">
+							<li><a href="#">Xếp hạng</a></li>
+						</ul>
+					<li><a href="#">Quản lý tài khoản</a></li>
+						<ul class ="sub">
+							<li><a href="#">Đang xây dựng</a></li>
+						</ul>
+				</ul>
+				<div id="footer">
+					<p><a href="#" class="face">Tôi yêu PTIT</a> @2014-2016</p>
+				</div>
+		</div>
+		<div id="content">
+			<p>Nhập họ tên hoặc mã số sinh viên</p>
+			<div id="view">
+			<input type="text" name="" placeholder="Họ tên hoặc mã sinh viên">
+			<button type="button">xem điểm</button>
+			</div>
+			<marquee id="a">cập nhật kho phim liên xô chống mỹ mới nhất của các thánh women đình đám một thời nhưng bộ phim làm nên tên tuổi</marquee>
+			<p>like <a href="#" class ="face">tôi yêu ptit</a> để cập nhật điểm thi, tài liệu ôn thi, lịch thi học kỳ </p>
+
+		</div>
+	</div>
+</body>
+</html>
